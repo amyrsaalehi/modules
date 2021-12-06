@@ -59,7 +59,7 @@ const Theme5DesktopHeader = _ref => {
     wrap: "nowrap",
     justifyContent: "flex-end",
     gap: 0.5
-  }, /*#__PURE__*/_react.default.createElement(_material.Typography, null, "\u062D\u0633\u0627\u0628 \u06A9\u0627\u0631\u0628\u0631\u06CC"), /*#__PURE__*/_react.default.createElement(_PersonOutlined.default, null)), /*#__PURE__*/_react.default.createElement(_material.Divider, {
+  }, /*#__PURE__*/_react.default.createElement(_material.Typography, null, "\u062D\u0633\u0627\u0628 \u06A9\u0627\u0631\u0628\u0631\u06CC"), /*#__PURE__*/_react.default.createElement(_ShoppingCartOutlined.default, null)), /*#__PURE__*/_react.default.createElement(_material.Divider, {
     orientation: "vertical",
     flexItem: true
   }), /*#__PURE__*/_react.default.createElement(_material.Grid, {
@@ -68,7 +68,7 @@ const Theme5DesktopHeader = _ref => {
     wrap: "nowrap",
     justifyContent: "flex-start",
     gap: 0.5
-  }, /*#__PURE__*/_react.default.createElement(_material.Typography, null, "2\u0633\u0628\u062F \u062E\u0631\u06CC\u062F"), /*#__PURE__*/_react.default.createElement(_ShoppingCartOutlined.default, null)))), /*#__PURE__*/_react.default.createElement(_material.Grid, {
+  }, /*#__PURE__*/_react.default.createElement(_material.Typography, null, "\u0633\u0628\u062F \u062E\u0631\u06CC\u062F"), /*#__PURE__*/_react.default.createElement(_PersonOutlined.default, null)))), /*#__PURE__*/_react.default.createElement(_material.Grid, {
     item: true,
     container: true,
     justifyContent: "center",

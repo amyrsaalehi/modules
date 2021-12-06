@@ -5,17 +5,17 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _react = _interopRequireDefault(require("react"));
+var _NotificationsNoneOutlined = _interopRequireDefault(require("@mui/icons-material/NotificationsNoneOutlined"));
+
+var _PersonOutlined = _interopRequireDefault(require("@mui/icons-material/PersonOutlined"));
+
+var _ShoppingCartOutlined = _interopRequireDefault(require("@mui/icons-material/ShoppingCartOutlined"));
 
 var _material = require("@mui/material");
 
 var _styles = require("@mui/styles");
 
-var _NotificationsNoneOutlined = _interopRequireDefault(require("@mui/icons-material/NotificationsNoneOutlined"));
-
-var _ShoppingCartOutlined = _interopRequireDefault(require("@mui/icons-material/ShoppingCartOutlined"));
-
-var _PersonOutlined = _interopRequireDefault(require("@mui/icons-material/PersonOutlined"));
+var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -25,7 +25,6 @@ const Theme1DesktopHeader = _ref => {
     Image,
     getDaysAgoFromTimestamp
   } = _ref;
-  console.log('from theme 1 header', (0, _styles.useTheme)());
   const classes = useStyles();
   return /*#__PURE__*/_react.default.createElement(_material.Grid, {
     className: classes.root,

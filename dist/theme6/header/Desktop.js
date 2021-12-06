@@ -5,21 +5,21 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _NotificationsNoneOutlined = _interopRequireDefault(require("@mui/icons-material/NotificationsNoneOutlined"));
-
-var _PersonOutlined = _interopRequireDefault(require("@mui/icons-material/PersonOutlined"));
-
-var _ShoppingCartOutlined = _interopRequireDefault(require("@mui/icons-material/ShoppingCartOutlined"));
+var _react = _interopRequireDefault(require("react"));
 
 var _material = require("@mui/material");
 
 var _styles = require("@mui/styles");
 
-var _react = _interopRequireDefault(require("react"));
+var _NotificationsNoneOutlined = _interopRequireDefault(require("@mui/icons-material/NotificationsNoneOutlined"));
+
+var _ShoppingCartOutlined = _interopRequireDefault(require("@mui/icons-material/ShoppingCartOutlined"));
+
+var _PersonOutlined = _interopRequireDefault(require("@mui/icons-material/PersonOutlined"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const Theme2DesktopHeader = _ref => {
+const Theme6DesktopHeader = _ref => {
   let {
     store,
     Image,
@@ -59,7 +59,7 @@ const Theme2DesktopHeader = _ref => {
     wrap: "nowrap",
     justifyContent: "flex-end",
     gap: 0.5
-  }, /*#__PURE__*/_react.default.createElement(_material.Typography, null, "2\u062D\u0633\u0627\u0628 \u06A9\u0627\u0631\u0628\u0631\u06CC"), /*#__PURE__*/_react.default.createElement(_PersonOutlined.default, null)), /*#__PURE__*/_react.default.createElement(_material.Divider, {
+  }, /*#__PURE__*/_react.default.createElement(_material.Typography, null, "\u062D\u0633\u0627\u0628 \u06A9\u0627\u0631\u0628\u0631\u06CC"), /*#__PURE__*/_react.default.createElement(_ShoppingCartOutlined.default, null)), /*#__PURE__*/_react.default.createElement(_material.Divider, {
     orientation: "vertical",
     flexItem: true
   }), /*#__PURE__*/_react.default.createElement(_material.Grid, {
@@ -68,7 +68,7 @@ const Theme2DesktopHeader = _ref => {
     wrap: "nowrap",
     justifyContent: "flex-start",
     gap: 0.5
-  }, /*#__PURE__*/_react.default.createElement(_material.Typography, null, "2\u0633\u0628\u062F \u062E\u0631\u06CC\u062F"), /*#__PURE__*/_react.default.createElement(_ShoppingCartOutlined.default, null)))), /*#__PURE__*/_react.default.createElement(_material.Grid, {
+  }, /*#__PURE__*/_react.default.createElement(_material.Typography, null, "\u0633\u0628\u062F \u062E\u0631\u06CC\u062F"), /*#__PURE__*/_react.default.createElement(_PersonOutlined.default, null)))), /*#__PURE__*/_react.default.createElement(_material.Grid, {
     item: true,
     container: true,
     justifyContent: "center",
@@ -97,11 +97,7 @@ const Theme2DesktopHeader = _ref => {
     item: true
   }, /*#__PURE__*/_react.default.createElement(_material.Typography, {
     component: "h1"
-  }, store.storeData.name)), /*#__PURE__*/_react.default.createElement(_material.Grid, {
-    item: true
-  }, /*#__PURE__*/_react.default.createElement(_material.Typography, {
-    component: "h3"
-  }, "\u0622\u062E\u0631\u06CC\u0646 \u062E\u0631\u06CC\u062F :", " ", getDaysAgoFromTimestamp(store.storeData.ecommerce.last_buy), " ", "\u0631\u0648\u0632 \u067E\u06CC\u0634"))), /*#__PURE__*/_react.default.createElement(_material.Grid, {
+  }, "\u0634\u06CC\u0631 \u062E\u0631 \u0641\u0631\u0648\u0634\u06CC"))), /*#__PURE__*/_react.default.createElement(_material.Grid, {
     item: true
   }, /*#__PURE__*/_react.default.createElement(_material.Box, {
     className: classes.logo,
@@ -145,5 +141,5 @@ const useStyles = (0, _styles.makeStyles)(theme => ({
     }
   }
 }));
-var _default = Theme2DesktopHeader;
+var _default = Theme6DesktopHeader;
 exports.default = _default;

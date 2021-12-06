@@ -101,19 +101,7 @@ const Theme3DesktopHeader = _ref => {
     item: true
   }, /*#__PURE__*/_react.default.createElement(_material.Typography, {
     component: "h3"
-  }, "\u0622\u062E\u0631\u06CC\u0646 \u062E\u0631\u06CC\u062F :", " ", getDaysAgoFromTimestamp(store.storeData.ecommerce.last_buy), " ", "\u0631\u0648\u0632 \u067E\u06CC\u0634"))), /*#__PURE__*/_react.default.createElement(_material.Grid, {
-    item: true
-  }, /*#__PURE__*/_react.default.createElement(_material.Box, {
-    className: classes.logo,
-    width: 60,
-    height: 60,
-    p: 1
-  }, /*#__PURE__*/_react.default.createElement(Image, {
-    src: store.storeData.logo.image,
-    width: 52,
-    height: 52,
-    alt: store.storeData.name
-  }))))));
+  }, "\u0622\u062E\u0631\u06CC\u0646 \u062E\u0631\u06CC\u062F :", " ", getDaysAgoFromTimestamp(store.storeData.ecommerce.last_buy), " ", "\u0631\u0648\u0632 \u067E\u06CC\u0634"))))));
 };
 
 const useStyles = (0, _styles.makeStyles)(theme => ({
