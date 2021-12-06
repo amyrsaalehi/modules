@@ -7,13 +7,12 @@ import {
     IconButton,
     Divider,
 } from "@mui/material";
-import { makeStyles, useTheme } from "@mui/styles";
+import { makeStyles } from "@mui/styles";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 
-const Theme1DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
-    console.log('from theme 1 header', useTheme())
+const Theme4DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
     const classes = useStyles();
     return (
         <Grid
@@ -57,7 +56,7 @@ const Theme1DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
                                 justifyContent={"flex-start"}
                                 gap={0.5}
                             >
-                                <Typography>1سبد خرید</Typography>
+                                <Typography>4سبد خرید</Typography>
                                 <ShoppingCartOutlinedIcon />
                             </Grid>
                         </Grid>
@@ -92,7 +91,7 @@ const Theme1DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
                             <Typography component={"h3"}>
                                 آخرین خرید :{" "}
                                 {getDaysAgoFromTimestamp(store.storeData.ecommerce.last_buy)}{" "}
-                                روز پیش
+                                سال پیش
                             </Typography>
                         </Grid>
                     </Grid>
@@ -142,4 +141,4 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default Theme1DesktopHeader;
+export default Theme4DesktopHeader;

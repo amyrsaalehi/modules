@@ -25,6 +25,7 @@ const Theme2DesktopHeader = _ref => {
     Image,
     getDaysAgoFromTimestamp
   } = _ref;
+  console.log('from theme 2 header', (0, _styles.useTheme)());
   const classes = useStyles();
   return /*#__PURE__*/_react.default.createElement(_material.Grid, {
     className: classes.root,

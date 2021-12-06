@@ -7,12 +7,13 @@ import {
     IconButton,
     Divider,
 } from "@mui/material";
-import { makeStyles } from "@mui/styles";
+import { makeStyles, useTheme } from "@mui/styles";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 
 const Theme2DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
+    console.log('from theme 2 header', useTheme())
     const classes = useStyles();
     return (
         <Grid
