@@ -10,9 +10,8 @@ import { makeStyles } from "@mui/styles";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
-import { getDaysAgoFromTimestamp } from "../../helper/date";
 
-const Theme2DesktopHeader = ({ store, Image }) => {
+const Theme2DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
     const classes = useStyles();
     return (
         <Grid

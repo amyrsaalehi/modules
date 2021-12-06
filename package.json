@@ -1,7 +1,7 @@
 {
   "name": "bonus-social-store-ssr-app-v3-modules",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@emotion/react": "^11.7.0",
@@ -9,8 +9,6 @@
     "@mui/icons-material": "^5.2.0",
     "@mui/material": "^5.2.2",
     "@mui/styles": "^5.2.2",
-    "moment": "^2.29.1",
-    "moment-jalaali": "^0.9.4",
     "react": "^17.0.2",
     "react-scripts": "4.0.3"
   },
