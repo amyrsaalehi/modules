@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import {
     Grid,
     Box,
@@ -12,7 +12,7 @@ import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNone
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 
-const Theme3DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
+const Theme6DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
     const classes = useStyles();
     return (
         <Grid
@@ -46,7 +46,7 @@ const Theme3DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
                                 gap={0.5}
                             >
                                 <Typography>حساب کاربری</Typography>
-                                <PersonOutlinedIcon />
+                                <ShoppingCartOutlinedIcon />
                             </Grid>
                             <Divider orientation="vertical" flexItem />
                             <Grid
@@ -56,8 +56,8 @@ const Theme3DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
                                 justifyContent={"flex-start"}
                                 gap={0.5}
                             >
-                                <Typography>3سبد خرید</Typography>
-                                <ShoppingCartOutlinedIcon />
+                                <Typography>سبد خرید</Typography>
+                                <PersonOutlinedIcon />
                             </Grid>
                         </Grid>
                     </Grid>
@@ -85,17 +85,13 @@ const Theme3DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
                         gap={0.5}
                     >
                         <Grid item>
-                            <Typography component={"h1"}>{store.storeData.name}</Typography>
+                            <Typography component={"h1"}>شیر خر فروشی</Typography>
                         </Grid>
-                        <Grid item>
-                            <Typography component={"h3"}>
-                                آخرین خرید :{" "}
-                                {getDaysAgoFromTimestamp(store.storeData.ecommerce.last_buy)}{" "}
-                                روز پیش
-                            </Typography>
-                        </Grid>
+                        {/* <Grid item>
+                            <Typography component={"h3"}>تم ۵</Typography>
+                        </Grid> */}
                     </Grid>
-                    {/* <Grid item>
+                    <Grid item>
                         <Box className={classes.logo} width={60} height={60} p={1}>
                             <Image
                                 src={store.storeData.logo.image}
@@ -104,7 +100,7 @@ const Theme3DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
                                 alt={store.storeData.name}
                             />
                         </Box>
-                    </Grid> */}
+                    </Grid>
                 </Grid>
             </Grid>
         </Grid>
@@ -141,4 +137,4 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default Theme3DesktopHeader;
+export default Theme6DesktopHeader;

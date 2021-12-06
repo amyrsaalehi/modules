@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import {
     Grid,
     Box,
@@ -46,7 +46,7 @@ const Theme5DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
                                 gap={0.5}
                             >
                                 <Typography>حساب کاربری</Typography>
-                                <PersonOutlinedIcon />
+                                <ShoppingCartOutlinedIcon />
                             </Grid>
                             <Divider orientation="vertical" flexItem />
                             <Grid
@@ -56,8 +56,8 @@ const Theme5DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
                                 justifyContent={"flex-start"}
                                 gap={0.5}
                             >
-                                <Typography>2سبد خرید</Typography>
-                                <ShoppingCartOutlinedIcon />
+                                <Typography>سبد خرید</Typography>
+                                <PersonOutlinedIcon />
                             </Grid>
                         </Grid>
                     </Grid>
@@ -88,9 +88,7 @@ const Theme5DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
                             <Typography component={"h1"}>{store.storeData.name}</Typography>
                         </Grid>
                         <Grid item>
-                            <Typography component={"h3"}>
-                                تم ۵
-                            </Typography>
+                            <Typography component={"h3"}>تم ۵</Typography>
                         </Grid>
                     </Grid>
                     <Grid item>

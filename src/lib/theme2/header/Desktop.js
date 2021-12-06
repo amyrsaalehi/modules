@@ -1,19 +1,13 @@
-import React from 'react'
-import {
-    Grid,
-    Box,
-    Typography,
-    TextField,
-    IconButton,
-    Divider,
-} from "@mui/material";
-import { makeStyles, useTheme } from "@mui/styles";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
-import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
+import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import {
+    Box, Divider, Grid, IconButton, TextField, Typography
+} from "@mui/material";
+import { makeStyles } from "@mui/styles";
+import React from 'react';
 
 const Theme2DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
-    console.log('from theme 2 header', useTheme())
     const classes = useStyles();
     return (
         <Grid
@@ -46,7 +40,7 @@ const Theme2DesktopHeader = ({ store, Image, getDaysAgoFromTimestamp }) => {
                                 justifyContent={"flex-end"}
                                 gap={0.5}
                             >
-                                <Typography>حساب کاربری</Typography>
+                                <Typography>2حساب کاربری</Typography>
                                 <PersonOutlinedIcon />
                             </Grid>
                             <Divider orientation="vertical" flexItem />
